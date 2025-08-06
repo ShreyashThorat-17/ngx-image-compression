@@ -1,0 +1,1 @@
+# ngx-image-compression
