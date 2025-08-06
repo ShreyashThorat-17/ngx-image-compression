@@ -1,0 +1,48 @@
+{
+  "name": "ngx-image-compression",
+  "version": "1.0.2",
+  "description": "A lightweight Angular image compression and conversion library",
+  "keywords": [
+    "angular",
+    "image-compression",
+    "image-conversion",
+    "image-optimizer",
+    "ngx",
+    "frontend-image",
+    "webp",
+    "base64",
+    "blob",
+    "image-upload",
+    "s3",
+    "optimize-image",
+    "resize-image",
+    "compress-image"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --dts --format esm,cjs --out-dir dist --clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShreyashThorat-17/ngx-image-compression.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShreyashThorat-17/ngx-image-compression/issues"
+  },
+  "homepage": "https://github.com/ShreyashThorat-17/ngx-image-compression#readme",
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2"
+  },
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": ["dist"]
+}
